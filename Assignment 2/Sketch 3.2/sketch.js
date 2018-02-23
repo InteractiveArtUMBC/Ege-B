@@ -1,0 +1,40 @@
+function setup (){
+    createCanvas(600,600)
+}
+function draw(){
+beginShape();
+vertex(10,10);
+vertex(20,10);
+vertex(10,20);
+vertex(20,20);
+endShape(CLOSE);
+translate(0,10);
+beginShape();
+vertex(10,10);
+vertex(20,10);
+vertex(10,20);
+vertex(20,20);
+endShape(CLOSE);
+translate(0,10);
+beginShape();
+vertex(10,10);
+vertex(20,10);
+vertex(10,20);
+vertex(20,20);
+endShape(CLOSE);
+translate(0,10);
+beginShape();
+vertex(10,10);
+vertex(20,10);
+vertex(10,20);
+vertex(20,20);
+endShape(CLOSE);
+translate(0,10);
+beginShape();
+vertex(10,10);
+vertex(20,10);
+vertex(10,20);
+vertex(20,20);
+endShape(CLOSE);
+translate(0,10);
+}
